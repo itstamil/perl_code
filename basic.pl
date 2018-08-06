@@ -7,7 +7,8 @@ print"perl supports os commands";
 #lite shell script
 #command comment
 
-print `uptime`;
+#printing system command in various method
+print `uptime`;  
 print "Cpu load balancing : uptime\n";
 system("uptime");
 $a = 10;
